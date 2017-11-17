@@ -69,7 +69,7 @@ def add_s(array)
   array.each_with_index.collect{|element, index| }
     unless index = 1
       size = element.size - 1
-      element.insert(size, "s")
+      element.collect()"s")
     end
   array
 end
