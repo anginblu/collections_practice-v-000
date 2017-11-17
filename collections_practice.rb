@@ -42,7 +42,7 @@ def reverse_array(array)
   array_new = array
   until count = array.count
     array.push(array_new[0])
-    array.shift(array_new[0])
+    array_new.shift(array_new[0])
     count += 1
   end
   array_new
