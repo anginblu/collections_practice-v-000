@@ -66,5 +66,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+  array.each do |i|
+    unless i = array[1]
+      
+  end
 end
