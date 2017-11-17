@@ -38,14 +38,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  count = 0
-  array_new = array
-  until count = array.count
-    array.push(array_new[0])
-    array_new.shift(array_new[0])
-    count += 1
-  end
-  array_new
+  array.reverse
 end
 
 def kesha_maker(array)
