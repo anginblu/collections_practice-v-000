@@ -44,7 +44,8 @@ end
 def kesha_maker(array)
   count = 0
   while array.size > count
-    array[count]
+    string = array[count]
+    string[3] = "$"
     count += 0
   end
 end
