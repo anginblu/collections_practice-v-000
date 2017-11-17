@@ -54,7 +54,6 @@ end
 def find_a(array)
   array_new = []
   array.any? {|i| array_new << i if i[0] = "a"}
-
 end
 
 def sum_array(array)
