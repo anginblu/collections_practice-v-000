@@ -54,7 +54,9 @@ end
 def find_a(array)
   array_new = []
   array.each do |i|
-    array_new << i if i[0] = "a"
+    if i[0] = "a"
+      array_new << i 
+    end
   end
   array_new
 end
