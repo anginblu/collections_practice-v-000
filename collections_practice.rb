@@ -48,6 +48,7 @@ def kesha_maker(array)
     string[3] = "$"
     count += 1
   end
+  array
 end
 
 def find_a(array)
