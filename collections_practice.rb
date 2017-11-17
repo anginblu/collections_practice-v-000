@@ -44,7 +44,7 @@ end
 def kesha_maker(array)
   count = 0
   while array.size > count
-
+    array[count]
     count += 0
   end
 end
