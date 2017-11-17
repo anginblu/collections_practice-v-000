@@ -38,7 +38,6 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array_new = array
   count = 0
   while count < array.count
     array.insert(0, array.last)
