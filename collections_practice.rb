@@ -45,7 +45,7 @@ def reverse_array(array)
     array.shift(array.last)
     count += 1
   end
-  array = array_new
+  array_new
 end
 
 def kesha_maker(array)
