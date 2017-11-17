@@ -70,4 +70,5 @@ def add_s(array)
     unless index = 1
       element.insert("s")
     end
+  array
 end
