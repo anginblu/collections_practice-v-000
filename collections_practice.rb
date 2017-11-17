@@ -42,7 +42,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  count = 0
+  while array.size > count
 
+    count += 0
+  end
 end
 
 def find_a(array)
