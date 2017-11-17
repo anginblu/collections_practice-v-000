@@ -41,8 +41,8 @@ def reverse_array(array)
   count = 0
   array_new = array
   until count = array.count
-    array_new.push(array[0]])
-    array.shift(array.first)
+    array_new.push(array[0])
+    array.shift(array[0])
     count += 1
   end
   array_new
